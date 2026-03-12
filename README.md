@@ -448,7 +448,7 @@ This is the core section. These methods use LLMs as the reasoning backbone but r
 | **Authors** | Jiashuo Sun, et al. (follow-up) |
 | **Venue** | arXiv 2024 |
 | **Paper** | https://arxiv.org/abs/2407.10805 |
-| **Code** | https://github.com/HKUST-KnowComp/Think-on-Graph |
+| **Code** | https://github.com/DataArcTech/ToG-2 |
 
 **Key idea**: Extends ToG with *deep thinking* — incorporates CoT reasoning within each beam step and introduces a "think-before-you-walk" mechanism that prunes impossible paths using LLM self-consistency before expansion.
 
