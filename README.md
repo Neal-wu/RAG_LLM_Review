@@ -1,6 +1,7 @@
-# Literature Review: RAG and GraphRAG for LLM Reasoning
+# Literature Review: RAG  methods to enhance LLM Reasoning
 
 > **Scope**: Retrieval-Augmented Generation (RAG), with emphasis on graph-structured retrieval (GraphRAG) for knowledge-intensive reasoning.
+
 > **Last updated**: 2026-03-12
 
 ---
