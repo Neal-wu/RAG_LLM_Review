@@ -48,7 +48,7 @@
 | **Authors** | Patrick Lewis, Ethan Perez, et al. (Facebook AI) |
 | **Venue** | NeurIPS 2020 |
 | **Paper** | https://arxiv.org/abs/2005.11401 |
-| **Code** | https://github.com/huggingface/transformers (integrated) |
+| **Code** |  https://huggingface.co/facebook/rag-token-nq |
 
 **Key idea**: Combines a pre-trained seq2seq model (BART) as parametric memory with a dense vector index of Wikipedia (DPR) as non-parametric memory. Two variants: RAG-Sequence (retrieve once per sequence) and RAG-Token (retrieve per token). Marginalizes over top-K retrieved documents.
 
