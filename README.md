@@ -387,7 +387,7 @@ This is the core section. These methods use LLMs as the reasoning backbone but r
 ### 4.9 DoG — Debate on Graph
 | Field | Detail |
 |-------|--------|
-| **Authors** | Yufei He, et al. |
+| **Authors** | Jie Ma, et al. |
 | **Venue** | AAAI 2025 |
 | **Paper** | https://arxiv.org/abs/2409.03155 |
 
