@@ -281,7 +281,7 @@ This is the core section. These methods use LLMs as the reasoning backbone but r
 | **Authors** | Jiashuo Sun, et al. (HKUST + Baidu) |
 | **Venue** | ICLR 2024 |
 | **Paper** | https://arxiv.org/abs/2307.07697 |
-| **Code** | https://github.com/HKUST-KnowComp/Think-on-Graph |
+| **Code** | https://github.com/DataArcTech/ToG |
 
 **Key idea**: Uses an LLM as an agent that *walks* the KG beam-search style: at each hop, the LLM selects which relations to follow from the current entity set, expands the frontier, prunes irrelevant paths, and repeats until an answer is found. The KG is the "scratchpad."
 
