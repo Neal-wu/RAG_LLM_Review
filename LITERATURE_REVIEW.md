@@ -220,7 +220,7 @@ These methods set the stage for GraphRAG but rely on structured KGQA pipelines (
 |-------|--------|
 | **Authors** | Apoorv Saxena, et al. (IIT Delhi) |
 | **Venue** | ACL 2020 |
-| **Paper** | https://arxiv.org/abs/2106.09996 |
+| **Paper** | https://aclanthology.org/2020.acl-main.412/ |
 | **Code** | https://github.com/malllabiisc/EmbedKGQA |
 
 **Key idea**: Embeds multi-hop KGQA as a KG completion problem. Uses KG embeddings (ComplEx) to bridge incomplete KGs; answers are found by maximizing entity-answer similarity in embedding space.
@@ -374,7 +374,7 @@ This is the core section. These methods use LLMs as the reasoning backbone but r
 |-------|--------|
 | **Authors** | Haoran Luo, et al. (Beijing Institute of Technology) |
 | **Venue** | ACL 2024 Findings |
-| **Paper** | https://arxiv.org/abs/2304.09167 |
+| **Paper** | https://arxiv.org/abs/2310.08975 |
 | **Code** | https://github.com/LHRLAB/ChatKBQA |
 
 **Key idea**: Fine-tunes an LLM (LLaMA-2) to generate SPARQL-like logical forms (S-expressions) for KGQA. Applies entity linking and relation retrieval as a post-processing step to ground the generated logical form onto the actual KG entities/relations (entity disambiguation). Avoids the brittleness of direct KG traversal by working in the logical form space.
